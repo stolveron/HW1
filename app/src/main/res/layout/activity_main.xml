@@ -13,43 +13,42 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello world снова"
+        android:text="@string/txt_1"
         android:textColor="@color/OrangeRed"
-        android:textSize="30sp"/>
+        android:textSize="@dimen/q_1"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter something..."
-        android:textSize="20sp"/>
+        android:hint="@string/txt_2"
+        android:textSize="@dimen/q_2"/>
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="italic"
-        android:text="КУ" />
+        android:text="@string/txt_3" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_alarm"
-        android:switchPadding="10dp"
-        android:text="Alarm"/>
+        android:text="@string/txt_4"/>
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Push me"/>
+        android:text="@string/txt_5"/>
 
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/OrangeRed"
-        android:textOff="Hi"
-        android:textOn="Bye"
-        android:textSize="25sp"
+        android:textOff="@string/txt_6"
+        android:textOn="@string/txt_7"
+        android:textSize="@dimen/q_3"
         android:textStyle="bold"/>
 
     <LinearLayout
@@ -62,7 +61,7 @@
                 android:id="@+id/btnSecond"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Activity"
+                android:text="@string/txt_8"
                 android:textColor="@color/OrangeRed"
                 android:backgroundTint="@color/white"/>
     </LinearLayout>

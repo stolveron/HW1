@@ -19,7 +19,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="text"
-            android:hint="Enter something..."
+            android:hint="@string/txt_10"
             android:importantForAutofill="no" />
 
         <EditText
@@ -29,7 +29,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPassword"
-            android:hint="Password"
+            android:hint="@string/txt_11"
             android:importantForAutofill="no" />
 
         <EditText
@@ -39,7 +39,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="numberPassword"
-            android:hint="Numeric password"
+            android:hint="@string/txt_12"
             android:importantForAutofill="no"/>
 
         <EditText
@@ -49,7 +49,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Your name"
+            android:hint="@string/txt_13"
             android:importantForAutofill="no"/>
 
         <EditText
@@ -59,7 +59,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="phone"
-            android:hint="phoneNum"
+            android:hint="@string/txt_14"
             android:importantForAutofill="no" />
 
         <EditText
@@ -69,7 +69,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="date"
-            android:hint="dd-MM-yyyy"
+            android:hint="@string/txt_15"
             android:importantForAutofill="no" />
 
         <EditText
@@ -79,7 +79,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:hint="Email"
+            android:hint="@string/txt_16"
             android:importantForAutofill="no" />
 
         <EditText
@@ -89,7 +89,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textCapCharacters"
-            android:hint="Capital"
+            android:hint="@string/txt_17"
             android:importantForAutofill="no" />
 
         </LinearLayout>
@@ -103,12 +103,12 @@
                     android:id="@+id/buttonBack"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Back"/>
+                    android:text="@string/txt_18"/>
                 <Button
                     android:id="@+id/buttonNext"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Next"/>
+                    android:text="@string/txt_19"/>
 
 
         </LinearLayout>

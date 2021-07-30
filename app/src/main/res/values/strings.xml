@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">HW1</string>
+    <string name="txt_1">Hello world снова</string>
+    <string name="txt_2">Enter something...</string>
+    <string name="txt_3">КУ</string>
+    <string name="txt_4">Alarm</string>
+    <string name="txt_5">Click</string>
+    <string name="txt_6">Hi</string>
+    <string name="txt_7">Bye</string>
+    <string name="txt_8">Next</string>
+    <string name="txt_9">Back</string>
+    <string name="txt_10">Enter something...</string>
+    <string name="txt_11">Password</string>
+    <string name="txt_12">Numeric password</string>
+    <string name="txt_13">Your name</string>
+    <string name="txt_14">phoneNum</string>
+    <string name="txt_15">dd-MM-yyyy</string>
+    <string name="txt_16">Email</string>
+    <string name="txt_17">Capital</string>
+    <string name="txt_18">Back</string>
+    <string name="txt_19">Next</string>
 </resources>
